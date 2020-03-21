@@ -1,14 +1,12 @@
-from flask import Blueprint, request
+from flask import Blueprint
 import json
 
 
 version = Blueprint('version', __name__, url_prefix='/version')
 
-
 VERSION = [
     {'v1.0.0': '第一版'},
 ]
-
 
 
 @version.route('', methods=['GET'])
