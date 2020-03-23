@@ -1,6 +1,3 @@
-from flask import Flask
-import sys
-
 from src.setting import HOST, PORT
 from src import create_app
 
